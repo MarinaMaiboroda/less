@@ -1,0 +1,6 @@
+.idea/
+node_modules/
+assets/PSD/
+WP_theme/
+*.sql
+*.php

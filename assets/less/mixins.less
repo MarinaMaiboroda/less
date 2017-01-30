@@ -1,0 +1,15 @@
+.title-underline (@color){
+    position: relative;
+    width: 100%;
+
+    &:after{
+        position: absolute;
+        bottom: -17px;
+        left: 50%;
+        margin-left: -50px;
+        width: 100px;
+        height: 2px;
+        background: @color;
+        content: "";
+    }
+}
